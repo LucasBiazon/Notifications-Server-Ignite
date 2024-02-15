@@ -1,5 +1,5 @@
 -- CreateTable
-CREATE TABLE "notifiation" (
+CREATE TABLE "notification" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "recipientId" TEXT NOT NULL,
     "content" TEXT NOT NULL,
@@ -9,4 +9,4 @@ CREATE TABLE "notifiation" (
 );
 
 -- CreateIndex
-CREATE INDEX "notifiation_recipientId_idx" ON "notifiation"("recipientId");
+CREATE INDEX "notification_recipientId_idx" ON "notification"("recipientId");
